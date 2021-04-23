@@ -223,5 +223,5 @@ async def nápad(ctx, *, args):
 async def change_status():
     await client.change_presence(activity=discord.Game(next(status)))
 
-client.run("ODMzNDMxNDk2NjIxNTU1NzMy.YHyPkQ.INLK7c2wUO-vcqx8c5XuRcnNoKE")
+client.run = System.getenv("TOKEN")
 
