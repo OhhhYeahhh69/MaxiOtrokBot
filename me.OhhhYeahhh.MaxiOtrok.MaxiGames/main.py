@@ -223,5 +223,7 @@ async def nápad(ctx, *, args):
 async def change_status():
     await client.change_presence(activity=discord.Game(next(status)))
 
-client.run = System.getenv("TOKEN")
+keep_alive()
+TOKEN = os.environ.get("DISCORD_BOT_SECRET")    
+client.run(TOKEN)
 
