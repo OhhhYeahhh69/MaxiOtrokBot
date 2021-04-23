@@ -1,11 +1,7 @@
-import asyncio
-from email import message
+import os
 from itertools import cycle
-from lib2to3.fixes.fix_input import context
-from webbrowser import get
 
 import discord
-from discord import member
 from discord.ext import commands, tasks
 
 client = commands.Bot(command_prefix="+")
@@ -224,4 +220,3 @@ async def change_status():
     await client.change_presence(activity=discord.Game(next(status)))
 
 client.run(os.environ['TOKEN'])
-
