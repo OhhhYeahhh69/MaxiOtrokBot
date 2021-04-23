@@ -1,1 +1,1 @@
-Worker: python me.OhhhYeahhh.MaxiOtrok.MaxiGames/main.py 
+Worker: Python me.OhhhYeahhh.MaxiOtrok.MaxiGames/main.py 
