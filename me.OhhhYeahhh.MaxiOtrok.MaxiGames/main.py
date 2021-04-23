@@ -223,5 +223,5 @@ async def nápad(ctx, *, args):
 async def change_status():
     await client.change_presence(activity=discord.Game(next(status)))
 
-client.run("ODMzNDMxNDk2NjIxNTU1NzMy.YHyPkQ._NxVnDD5LxFP3Nogn40Sx0n0e_M")
+client.run("ODMzNDMxNDk2NjIxNTU1NzMy.YHyPkQ.h8FWyqHDvIEcsIUXukA0JysnQrc")
 
